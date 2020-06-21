@@ -38,7 +38,7 @@ jobs:
       run: npm install -global surge
      
     - name: Deploy Surge
-      run: surge ./bulid my-app.surge.su ${{secrets.SURGE_TOKEN}}
+      run: surge ./bulid my-app.surge.sh ${{secrets.SURGE_TOKEN}}
        
        
 
